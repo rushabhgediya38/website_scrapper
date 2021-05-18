@@ -5,4 +5,4 @@ from .models import freq
 class FreqSerializers(serializers.ModelSerializer):
     class Meta:
         model = freq
-        fields = ['freq_url']
+        fields = ['freq_url', 'content']
