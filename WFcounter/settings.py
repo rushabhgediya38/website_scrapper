@@ -12,9 +12,9 @@ import django_heroku
 SECRET_KEY = 'django-insecure-=w!_9s(ahr9$iqv%!+@z-s&z7bnzwz(brkii3==pxmyk2z9xoc'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['https://website-fetching.herokuapp.com/', '127.0.0.1']
+ALLOWED_HOSTS = ['*']
 
 # Application definition
 
@@ -109,4 +109,5 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
+# Activate Django-Heroku.
 django_heroku.settings(locals())
