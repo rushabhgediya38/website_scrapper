@@ -12,9 +12,9 @@ import django_heroku
 SECRET_KEY = 'django-insecure-=w!_9s(ahr9$iqv%!+@z-s&z7bnzwz(brkii3==pxmyk2z9xoc'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['https://website-fetching.herokuapp.com/', '127.0.0.1']
 
 # Application definition
 
